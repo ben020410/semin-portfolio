@@ -57,3 +57,4 @@ CLI 배포만 했을 때 기존 Astro 레포가 계속 연결되어 있으면, �
 - Vercel 버전은 검색 노출을 원하면 `app/layout.tsx`의 `robots`를 `index: true, follow: true`로 수정합니다. 현재는 기존 요청대로 검색 색인을 꺼둔 상태입니다.
 
 공식 참고: https://vercel.com/docs/cli/project-linking · https://vercel.com/docs/builds/configure-a-build · https://vercel.com/docs/projects/deploy-from-cli
+ 
