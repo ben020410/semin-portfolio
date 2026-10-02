@@ -1,0 +1,5 @@
+import type { Project } from "@/lib/projects";
+export function ProjectCard({ project: p, number }: {
+    project: Project;
+    number: number;
+}) { return <article className="project-card"><a href={`/projects/${p.slug}`} className="project-visual" aria-label={`Explore ${p.title}`}><img src={p.image} alt={p.imageAlt} width="944" height="502" loading="lazy" className="diagram"/><span className="project-index">0{number}</span><span className="image-tag">{p.category}</span></a><div className="project-body"><div className="project-meta"><span>{p.venue}</span><span>{p.year}</span></div><h3><a href={`/projects/${p.slug}`}>{p.title}</a></h3><p>{p.summary}</p><div className="contribution-preview"><span className="mono">MY CONTRIBUTION</span><p>{p.contribution}</p></div><div className="project-outcome"><strong>{p.outcome}</strong><span>{p.resultLabel}</span></div><div className="card-bottom"><span>{p.tags.slice(0, 2).join(" / ")}</span><a href={`/projects/${p.slug}`} className="inline-link">Explore project</a></div></div></article>; }
