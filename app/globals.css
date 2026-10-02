@@ -60,3 +60,17 @@
   max-height: 540px;
   padding: 24px;
 }
+
+.home-views {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 18px;
+  color: var(--muted-foreground);
+  font-size: 12px;
+}
+
+.home-views span:last-child {
+  color: var(--foreground);
+  font-variant-numeric: tabular-nums;
+}
