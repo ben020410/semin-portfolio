@@ -9,9 +9,9 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://semin-na.vercel.app",
     siteName: "Semin Na",
-    title: "Semin Na — Robotics & Embodied AI",
+    title: "Semin Na",
     description:
-      "서울대학교 항공우주공학과 나세민의 포트폴리오. 로봇 비전과 자율 로봇 프로젝트를 소개합니다.",
+      "Welcome to my homepage.",
     images: [{
       url: "/images/home-preview-v1.jpg",
       width: 1200,
