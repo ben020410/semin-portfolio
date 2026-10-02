@@ -215,7 +215,7 @@ export const projects: Project[] = [
     "venue": "CO-Data Station · 4th place",
     "role": "Team lead · Integration & visualization",
     "summary": "Exploring how commuter EVs could move stored electricity from surplus regions to high-demand metropolitan areas.",
-    "image": "/images/vpp.webp",
+    "image": "/images/vpp-concept.webp",
     "imageAlt": "Original simulation chart showing Seoul peak demand under V2G-VPP operation",
     "tags": [
       "VPP / V2G",
