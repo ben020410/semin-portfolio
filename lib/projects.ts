@@ -19,6 +19,10 @@ export type Project = {
     outcome: string;
     resultLabel: string;
     context: string;
+    award?: {
+      title: string;
+      event: string;
+    };
     contributions: {
         title: string;
         body: string;
@@ -226,7 +230,11 @@ export const projects: Project[] = [
     "contribution": "Led a four-person team, coordinated the analysis workflow, visualized results, and integrated the final system proposal.",
     "outcome": "17.3 MW simulated peak reduction",
     "resultLabel": "Seoul summer demand · Modeled scenario",
-    "context": "2024 CO-Data Station Data Science Contest: 4th place (Association President’s Award). The proposal combines commuter mobility, regional energy imbalances, and workplace charging infrastructure.",
+    "context": "The proposal combines commuter mobility, regional energy imbalances, and workplace charging infrastructure to explore V2G-based electricity redistribution.",
+    "award": {
+      "title": "4th place · Association President’s Award",
+      "event": "2024 CO-Data Station Data Science Contest"
+    },
     "contributions": [
       {
         "title": "Team coordination",
@@ -323,6 +331,10 @@ export const projects: Project[] = [
     "outcome": "Silver prize · 3rd place",
     "resultLabel": "2024 AI Convergence Industry-Academia Hackathon",
     "context": "A four-person hackathon team built a working personalized storybook prototype using GPT-4o, DALL-E 3, Flask, and gTTS.",
+    "award": {
+      "title": "Silver prize · 3rd place",
+      "event": "2024 AI Convergence Industry-Academia Hackathon"
+    },
     "contributions": [
       {
         "title": "Project leadership",
@@ -365,7 +377,7 @@ export const projects: Project[] = [
         "label": "Working multimodal service"
       }
     ],
-    "resultNote": "We built a working storybook prototype with GPT-4o, DALL-E 3, Flask and gTTS. The project won the silver prize (3rd place) at the 2024 AI Convergence Hackathon.",
+    "resultNote": "We built a working storybook prototype with GPT-4o, DALL-E 3, Flask and gTTS.",
     "limitation": "Facial attributes were sensitive to prompts and model bias. Keeping the same character across scenes remained difficult.",
     "sources": [
       {

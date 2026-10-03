@@ -74,3 +74,14 @@
   color: var(--foreground);
   font-variant-numeric: tabular-nums;
 }
+
+.project-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  min-width: 0;
+}
+
+.project-sidebar .context-award {
+  margin: 0;
+}
