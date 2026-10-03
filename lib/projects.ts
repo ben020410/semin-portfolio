@@ -50,7 +50,7 @@ export const projects: Project[] = [
     "fullTitle": "Zero-Shot Object Navigation Using Semantic Scene Descriptions and Dynamic Decision-Making",
     "category": "Robotics & AI",
     "year": "2026",
-    "period": "Oct 2025 — Feb 2026",
+    "period": "Feb 2026",
     "venue": "KRoC 2026",
     "role": "Co-author · Research & implementation",
     "summary": "Turning panoramic observations into semantic scene descriptions, with additional visual reasoning at uncertain navigation decisions.",
